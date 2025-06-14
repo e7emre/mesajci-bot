@@ -5,8 +5,8 @@ from aiogram import Bot, Dispatcher, types
 from aiogram.enums import ParseMode
 from aiogram.filters import Command
 
-TOKEN = os.getenv("7764387357:AAHCCFJq1fWOHav0yxpojMAx0b_Dz8-4MlY")
-ADMIN_ID = int(os.getenv("7728979696"))
+TOKEN = os.getenv("BOT_TOKEN")
+ADMIN_ID = int(os.getenv("ADMIN_ID"))
 
 bot = Bot(token=TOKEN, parse_mode=ParseMode.HTML)
 dp = Dispatcher()
